@@ -1,0 +1,12 @@
+{{#if error}}
+  <h2>Error</h2>
+  <p>{{error}}</p>
+
+{{else}}
+  <h2>Recommendations</h2>
+  <ol id="recommendations">
+  {{#each movies}}
+    {{{listing this}}}
+  {{/each}}
+  </ol>
+{{/if}}
