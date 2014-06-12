@@ -1,3 +1,4 @@
 output/
 cache/
+node_modules/
 *.pyc
